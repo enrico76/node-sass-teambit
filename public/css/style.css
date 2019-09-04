@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  list-style: none;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  padding: 50px 25px;
+  overflow: hidden;
+}
+
+.wrappermin {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  height: 500px;
+  margin: auto;
+}
+
