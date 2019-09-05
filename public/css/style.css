@@ -19,7 +19,7 @@
 
 .topnav {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 60%;
   height: 70px;
   margin: auto;
@@ -31,5 +31,20 @@
   background-image: url(https://teambit.io/wp-content/themes/teambeat/img/logo.svg);
   background-position: left center;
   background-repeat: no-repeat;
+}
+
+#menu {
+  width: 400px;
+}
+
+#menu li {
+  float: left;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+hr {
+  width: 60%;
+  margin: auto;
 }
 
