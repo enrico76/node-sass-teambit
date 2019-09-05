@@ -18,4 +18,11 @@
   
     overflow: hidden;
   }
-  @import "contmin";
+  %wrappermin {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 70px;
+    margin: auto;
+}
+  @import "topnav";

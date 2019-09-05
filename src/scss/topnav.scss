@@ -1,3 +1,6 @@
 .topnav {
-    
+    @extend %wrappermin;
+}
+#logo {
+    background-image: url(https://teambit.io/wp-content/themes/teambeat/img/logo.svg);
 }
